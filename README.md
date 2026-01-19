@@ -6,7 +6,7 @@
 
 **Ultra High-Performance Port Scanner** written in Go. Fast, feature-rich, and professional.
 
-![PortScanGO Banner](https://raw.githubusercontent.com/portscango/assets/main/banner.png)
+![PortScanGO Banner](assets/banner.png)
 
 ## ⚡ Features
 
