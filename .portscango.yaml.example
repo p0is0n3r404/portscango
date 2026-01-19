@@ -1,0 +1,34 @@
+# PortScanGO Example Configuration
+# Copy this file to ~/.portscango.yaml or .portscango.yaml
+
+default:
+  threads: 100
+  timeout: 1s
+  service_detection: true
+  banner_grab: true
+  output_format: table
+  color_output: true
+
+profiles:
+  stealth:
+    threads: 10
+    timeout: 2s
+    delay: 500ms
+    random_order: true
+  
+  quick:
+    threads: 200
+    timeout: 500ms
+  
+  aggressive:
+    threads: 500
+    timeout: 200ms
+
+webhook:
+  discord: ""
+  slack: ""
+  custom: ""
+
+database:
+  enabled: false
+  path: "portscango.db"
